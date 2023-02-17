@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/danglinh2k1/danglinh_portfolio/static/css/main.c6d86c2a.css",
+    "main.js": "/danglinh2k1/danglinh_portfolio/static/js/main.dac61595.js",
+    "static/media/bannerImg.png": "/danglinh2k1/danglinh_portfolio/static/media/bannerImg.1dfc8a4027f1b5577e8c.png",
+    "static/media/contactImg.png": "/danglinh2k1/danglinh_portfolio/static/media/contactImg.e423a6aeff806dd811d3.png",
+    "static/media/projectThree.png": "/danglinh2k1/danglinh_portfolio/static/media/projectThree.dae2b5881b56562cde7a.png",
+    "static/media/projectOne.png": "/danglinh2k1/danglinh_portfolio/static/media/projectOne.07994ffc5bf723e17292.png",
+    "static/media/logo.png": "/danglinh2k1/danglinh_portfolio/static/media/logo.cebc98e888c04beb0962.png",
+    "static/media/projectTwo.jpg": "/danglinh2k1/danglinh_portfolio/static/media/projectTwo.350b34fe2ac083db8238.jpg",
+    "index.html": "/danglinh2k1/danglinh_portfolio/index.html",
+    "main.c6d86c2a.css.map": "/danglinh2k1/danglinh_portfolio/static/css/main.c6d86c2a.css.map",
+    "main.dac61595.js.map": "/danglinh2k1/danglinh_portfolio/static/js/main.dac61595.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6d86c2a.css",
+    "static/js/main.dac61595.js"
+  ]
+}
