@@ -29,7 +29,7 @@ const Features = () => {
           icon={<SiProgress />}
         />
         <Card
-          title="Mobile Development"
+          title="Communication Development"
           des="Build and develop the communication segment through social networks such as TIkTOk & FACEBOOK... Develop channels, build fanpages, groups and run ads for business."
           icon={<AiFillNotification />}
         />
