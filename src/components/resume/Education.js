@@ -15,7 +15,7 @@ const Education = () => {
     >
       {/* part one */}
       
-        <section className="dark:bg-gray-800 dark:text-gray-100 rounded-xl">
+        <section className="dark:bg-gray-800 dark:text-gray-100 rounded-xl mt-12">
           <div className="container max-w-5xl px-4 py-12 mx-auto">
             <div className="flex flex-wrap gap-2 mx-4 sm:grid-cols-12">
               <div className="col-span-12 sm:col-span-3">
