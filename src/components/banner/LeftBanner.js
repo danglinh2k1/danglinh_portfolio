@@ -16,7 +16,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal uppercase">welcome to my profile</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="uppercase font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 " >Đăng Linh</span>
+          Hi. I'm <span className="uppercase font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 " >Đăng Linh</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>

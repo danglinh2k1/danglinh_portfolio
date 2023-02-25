@@ -11,7 +11,7 @@ const Experience = () => {
         hidden: { opacity: 0, x: -50 },
         visible: { opacity: 1, x: 0 },
       }}
-      className="py-12 font-titleFont flex gap-20 "
+      className=""
     >
 <div>
 <section className="p-6 dark:bg-gray-800 dark:text-gray-100 rounded-xl">
