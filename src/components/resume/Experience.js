@@ -14,7 +14,7 @@ const Experience = () => {
       className="py-12 font-titleFont flex gap-20 "
     >
 <div>
-<section className="p-6 dark:bg-gray-800 dark:text-gray-100 rounded-xl">
+<section className="p-6 bg-teal-800 dark:text-gray-100 rounded-xl">
 	<div className="container mx-auto">
 		<span className="block mb-2 text-xs font-medium tracking-widest text-center uppercase dark:text-violet-400">work experience</span>
 		<h2 className="text-5xl font-bold text-center dark:text-gray-50">Building in the process of self-development</h2>
