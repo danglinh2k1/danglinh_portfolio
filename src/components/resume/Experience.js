@@ -11,9 +11,9 @@ const Experience = () => {
         hidden: { opacity: 0, x: -50 },
         visible: { opacity: 1, x: 0 },
       }}
-      className="py-12 font-titleFont flex gap-20 "
+      
     >
-<div>
+
 <section className="p-6 bg-teal-800 dark:text-gray-100 rounded-xl">
 	<div className="container mx-auto">
 		<span className="block mb-2 text-xs font-medium tracking-widest text-center uppercase dark:text-violet-400">work experience</span>
@@ -39,7 +39,7 @@ const Experience = () => {
 		</div>
 	</div>
 </section>
-</div>
+
     </motion.div>
   );
 };
