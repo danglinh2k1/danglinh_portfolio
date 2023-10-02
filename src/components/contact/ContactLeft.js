@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaFileAlt, FaTiktok } from "react-icons/fa";
+import { FaFacebookF, FaFileAlt, FaTiktok, FaGithub } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 import { SiGmail } from "react-icons/si";
 const ContactLeft = () => {
@@ -53,6 +53,11 @@ const ContactLeft = () => {
           <a href="mailto:danglinh10062001@gmail.com">
             <span className="bannerIcon">
               <SiGmail />
+            </span>
+          </a>
+          <a href="https://github.com/danglinh2k1">
+            <span className="bannerIcon">
+              <FaGithub />
             </span>
           </a>
         </div>
