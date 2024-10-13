@@ -1,23 +1,32 @@
-import React from 'react'
-import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree, projectFour, projectFive } from "../../assets/index";
-import ProjectsCard from './ProjectsCard';
+import React from "react";
+import Title from "../layouts/Title";
+import {
+  projectOne,
+  projectTwo,
+  projectThree,
+  projectFour,
+  projectFive,
+  projectSix,
+} from "../../assets/index";
+import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   const url = {
-    pr1 : "https://github.com/danglinh2k1/my_card.git",
-    pr2 : "https://github.com/danglinh2k1/my_card.git",
-    pr3 : "https://github.com/danglinh2k1/my_card.git",
-    pr4 : "https://github.com/danglinh2k1/weather_api.git",
-    pr5 : "https://github.com/danglinh2k1/dlvmedia.git"
-  }
+    pr1: "https://github.com/danglinh2k1/my_card.git",
+    pr2: "https://github.com/danglinh2k1/my_card.git",
+    pr3: "https://github.com/danglinh2k1/my_card.git",
+    pr4: "https://github.com/danglinh2k1/weather_api.git",
+    pr5: "https://github.com/danglinh2k1/dlvmedia.git",
+    pr6: "https://capable-kulfi-9dca25.netlify.app/",
+  };
   const website = {
-    wb1 : "https://danglinh2k1.github.io/my_card/",
-    wb2 : "https://danglinh2k1.github.io/my_card/",
-    wb3 : "https://danglinh2k1.github.io/my_card/",
-    wb4 : "https://weather-api-steel-beta.vercel.app/",
-    wb5 : "https://mdlmedia123.id.vn/"
-  }
+    wb1: "https://danglinh2k1.github.io/my_card/",
+    wb2: "https://danglinh2k1.github.io/my_card/",
+    wb3: "https://danglinh2k1.github.io/my_card/",
+    wb4: "https://weather-api-steel-beta.vercel.app/",
+    wb5: "https://mdlmedia123.id.vn/",
+    wb6: "https://capable-kulfi-9dca25.netlify.app/",
+  };
   return (
     <section
       id="projects"
@@ -36,7 +45,6 @@ const Projects = () => {
           src={projectOne}
           url={url.pr1}
           website={website.wb1}
-          
         />
         <ProjectsCard
           title="MY-CARD"
@@ -44,7 +52,6 @@ const Projects = () => {
           src={projectTwo}
           url={url.pr1}
           website={website.wb1}
-          
         />
         <ProjectsCard
           title="MY-PROFILE"
@@ -52,34 +59,31 @@ const Projects = () => {
           src={projectThree}
           url={url.pr1}
           website={website.wb1}
-          
         />
-         <ProjectsCard
+        <ProjectsCard
           title="Weather-API"
           des=" Project : Weather-API, a project about weather forecasting in cities around the world using OpenWeatherMap API and Reactjs."
           src={projectFour}
           url={url.pr4}
           website={website.wb4}
-          
         />
-          <ProjectsCard
+        <ProjectsCard
           title="MDLMdia-web"
           des=" Project : MDLMedia-web, The website introduces the company and I am one of the founding and operating members. The website is designed in a simple and modern way, bringing a sense of comfort to users."
           src={projectFive}
           url={url.pr5}
           website={website.wb5}
-          
         />
-     
+        <ProjectsCard
+          title="TODO-list-web"
+          des=" Project : Project todo list is written using nestjs and Tailwind css technology."
+          src={projectSix}
+          url={url.pr6}
+          website={website.wb6}
+        />
       </div>
-
-
     </section>
-
-
-
-
   );
-}
+};
 
-export default Projects
+export default Projects;
