@@ -17,7 +17,7 @@ const Projects = () => {
     pr3: "https://github.com/danglinh2k1/my_card.git",
     pr4: "https://github.com/danglinh2k1/weather_api.git",
     pr5: "https://github.com/danglinh2k1/dlvmedia.git",
-    pr6: "https://capable-kulfi-9dca25.netlify.app/",
+    pr6: "https://todo-list-tau-topaz.vercel.app/",
   };
   const website = {
     wb1: "https://danglinh2k1.github.io/my_card/",
@@ -25,7 +25,7 @@ const Projects = () => {
     wb3: "https://danglinh2k1.github.io/my_card/",
     wb4: "https://weather-api-steel-beta.vercel.app/",
     wb5: "https://mdlmedia123.id.vn/",
-    wb6: "https://capable-kulfi-9dca25.netlify.app/",
+    wb6: "https://todo-list-tau-topaz.vercel.app/",
   };
   return (
     <section
