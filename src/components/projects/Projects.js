@@ -12,7 +12,7 @@ import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   const url = {
-    pr1: "https://github.com/danglinh2k1/my_card.git",
+    pr1: "https://github.com/danglinh2k1",
     pr2: "https://github.com/danglinh2k1/my_card.git",
     pr3: "https://github.com/danglinh2k1/my_card.git",
     pr4: "https://github.com/danglinh2k1/weather_api.git",
@@ -20,7 +20,7 @@ const Projects = () => {
     pr6: "https://todo-list-tau-topaz.vercel.app/",
   };
   const website = {
-    wb1: "https://danglinh2k1.github.io/my_card/",
+    wb1: "https://datxanh365.com.vn/",
     wb2: "https://danglinh2k1.github.io/my_card/",
     wb3: "https://danglinh2k1.github.io/my_card/",
     wb4: "https://weather-api-steel-beta.vercel.app/",
@@ -40,8 +40,8 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="WEBSITE-UI"
-          des=" Project: is a first interface created by HTML and CSS when starting to learn, cut the interface from the website of the University of Natural Resources and Environment."
+          title="DATXANH365"
+          des=" Project: The Datxanh365 project is a real estate website built using WordPress CMS."
           src={projectOne}
           url={url.pr1}
           website={website.wb1}
